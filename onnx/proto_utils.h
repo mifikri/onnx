@@ -11,7 +11,7 @@
 #include <google/protobuf/message.h>
 #endif  // !ONNX_USE_LITE_PROTO
 
-namespace ONNX_NAMESPACE {
+namespace onnx {
 
 #ifdef ONNX_USE_LITE_PROTO
 using ::google::protobuf::MessageLite;
